@@ -1,0 +1,42 @@
+{
+  "hosting": {
+    "public": "./",
+    "site": "adeeva-website",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    
+    "rewrites": [
+      {
+        "source": "/privacy-policy",
+        "destination": "/privacy-policy.html"
+      },
+      {
+        "source": "/terms-and-condition",
+        "destination": "/terms-and-condition.html"
+      },
+      {
+        "source": "/refund-policy",
+        "destination": "/refund-policy.html"
+      },
+      {
+        "source": "/help",
+        "destination": "/help.html"
+      },
+      {
+        "source": "/support",
+        "destination": "/support.html"
+      },
+      {
+        "source": "/delete-form",
+        "destination": "/delete-form.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
